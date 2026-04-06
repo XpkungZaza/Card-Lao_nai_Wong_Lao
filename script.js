@@ -11,15 +11,15 @@ const cards = [
     { id: 7, category: "friends-game", text: "ใครเป็นไอ่ขี้บิด ที่นัดเมื่อไหร่ ก็บิดไปหมด ดื่ม1จิบ"},
     { id: 8, category: "friends-game", text: "ใครที่มูฟออนไม่ได้ ตามส่องตามตื้อแฟนเก่า แม้เขาจะมีแฟนเเล้ว ดื่ม1จิบ"},
     { id: 9, category: "friends-game", text: "ใครที่เป็นภาระที่สุดในกลุ่ม ดื่ม1จิบ"},
-    { id: 10, category: "friends-game", text: "ใครที่เคยเอาขนมหรือกับข้าวเพื่อนไปกินเเล้วไม่บอก ดื่ม1จิบ"},
+    { id: 10, category: "friends-game", text: "ใครที่เคยแอบเอาขนมหรือกับข้าวเพื่อนไปกินเเล้วไม่บอก ดื่ม1จิบ"},
     { id: 11, category: "friends-game", text: "เปลี่ยนรูปโปรไฟล์ใน Social 1ชั่วโมงโดยให้เพื่อนเป็นคนเลือกภาพที่จะเปลี่ยน"},
     { id: 12, category: "friends-game", text: "โทรไปบอกรักใครก็ได้1คน"},
     { id: 13, category: "friends-game", text: "เล่าเรื่องที่เหี้ยที่สุดเธอเคยทำ"},
     { id: 14, category: "friends-game", text: "หอมเเก้มคนที่นั่งอยู่ด้านขวาของคุณ"},
     { id: 15, category: "friends-game", text: "บอกข้อเสียของเพื่อนเเต่ละคนโดยที่ทุกคนห้ามโกรธ"},
-    { id: 16, category: "friends-game", text: "รีวิวตัวคนที่สุ่มได้การ์ดใบนี้ ยังไงก็ได้โดยที่ห้ามโกรธ"},
+    { id: 16, category: "friends-game", text: "ให้เพื่อนรีวิวตัวคนที่สุ่มได้การ์ดใบนี้ ยังไงก็ได้โดยที่ห้ามโกรธ"},
     { id: 17, category: "friends-game", text: "แร็ปสด1บท"},
-    { id: 18, category: "friends-game", text: "โทรไปบอกรักเพื่อนที่เพศเดียวกันที่ไม่ได้อยู่ในวงนี้"},
+    { id: 18, category: "friends-game", text: "โทรไปบอกรักเพื่อนเพศเดียวกันที่ไม่ได้อยู่ในวงนี้"},
     { id: 19, category: "friends-game", text: "เผาเพื่อนสักคนในวงนี้โดยที่ คนนั้นห้ามโกรธ"},
     { id: 20, category: "friends-game", text: "ใครเคยแอบเซฟ รูปพี่น้องของเพื่อน ลงเครื่องตัวเอง ดื่ม1จิบ"},
     { id: 21, category: "friends-game", text: "ใครที่เเม่งขี้ยืมที่สุด เงินสดไม่พก เงินในบัญชีไม่มี ดื่ม1จิบ "},
@@ -69,20 +69,20 @@ const cards = [
     { id: 59, category: "darling-game", text: "อะไรคือสิ่งที่ คุณ อยากให้เราทำด้วยกันบ่อยๆ แต่พักหลังมานี้เราไม่ค่อยได้ทำ?" },
     { id: 60, category: "darling-game", text: "คุณ อยากบอก 'รัก' เราด้วยวิธีไหนที่นอกเหนือจากคำพูด?" },
     { id: 121, category: "darling-game", text: "ถามอะไรก้ได้กับแฟน 1ข้อ " },
-    { id: 122, category: "darling-game", text: "เธอตกหลุ่มรักเราที่ตรงไหน" },
+    { id: 122, category: "darling-game", text: "เธอตกหลุมรักเราที่ตรงไหน" },
     { id: 123, category: "darling-game", text: "ความกลัวที่คุณไม่ค่อยบอกใครคืออะไร และมันเริ่มต้นจากอะไร?" },
     { id: 124, category: "darling-game", text: "ช่วงเวลาที่คุณรู้สึกโดดเดี่ยวที่สุดในชีวิตคือเมื่อไหร่ และคุณผ่านมันมาได้ยังไง?" },
     { id: 125, category: "darling-game", text: "อะไรคือสิ่งเล็ก ๆ ที่เราทำแล้วทำให้คุณรู้สึกถูกรักมากที่สุด?" },
     { id: 126, category: "darling-game", text: "ถ้าวันหนึ่งเรามีปัญหาใหญ่ คุณอยากให้เราจัดการมันแบบไหน?" },
     { id: 127, category: "darling-game", text: "ความสัมพันธ์ในฝันของคุณหน้าตาเป็นยังไง?" },
     { id: 128, category: "darling-game", text: "คุณคิดว่าอะไรคือจุดอ่อนของตัวเองในเรื่องความรัก?" },
-    { id: 129, category: "darling-game", text: "ถ้าย้อนเวลากลับไปได้ คุณอยากกอดตัวเองตอนอายุเท่าไหร่ และเพราะอะไร?" },
+    { id: 129, category: "darling-game", text: "ถ้าย้อนเวลากลับไปได้ คุณอยากจะทำอะไรกับตัวเอง และเพราะอะไร?" },
     { id: 130, category: "darling-game", text: "คุณเคยกลัวเสียเราไปไหม และความกลัวนั้นหน้าตาเป็นยังไง?" },
     { id: 131, category: "darling-game", text: "อะไรคือคำพูดที่คุณอยากได้ยินจากเราบ่อย ๆ ?" },
     { id: 132, category: "darling-game", text: "ถ้าเราเงียบหายไป 1 วัน คุณจะคิดอะไรเป็นอย่างแรก?" },
-    { id: 133, category: "darling-game", text: "ความทรงจำในวัยเด็กที่หล่อหลอมให้คุณเป็นคุณทุกวันนี้คืออะไร?" },
+    { id: 133, category: "darling-game", text: "อะไรในวัยเด็กที่หล่อหลอมให้คุณเป็นคุณทุกวันนี้คืออะไร?" },
     { id: 134, category: "darling-game", text: "คุณเชื่อในโชคชะตา หรือเชื่อว่าเราสร้างมันเอง?" },
-    { id: 135, category: "darling-game", text: "อะไรคือเส้นบาง ๆ ที่คุณไม่อยากให้ใครก้าวข้าม?" },
+    { id: 135, category: "darling-game", text: "อะไรคือเส้นบาง ๆ ที่คุณไม่อยากให้แฟนคุณข้าม?" },
     { id: 136, category: "darling-game", text: "เวลาคุณเสียใจลึก ๆ คุณอยากให้เราทำอะไรให้?" },
     { id: 137, category: "darling-game", text: "คุณคิดว่าเราทำอะไรได้ดีในความสัมพันธ์นี้ และอะไรที่ควรพัฒนา?" },
     { id: 138, category: "darling-game", text: "ถ้าวันหนึ่งเราต้องอยู่ไกลกัน คุณคิดว่าอะไรจะช่วยให้เรายังใกล้กัน?" },
@@ -105,38 +105,41 @@ const cards = [
     { id: 61, category: "family-game", text: "วีรกรรมวัยเด็กที่แสบที่สุดคืออะไร?" },
     { id: 62, category: "family-game", text: "เมนูโปรดที่ต้องกินพร้อมหน้ากันคืออะไร?" }
 ];
-let currenttype = "lover-mode";
+
+let currentMode = "darling-game"; // เก็บชื่อโหมดปัจจุบัน
+let tempDeck = [];    // กองไพ่ที่จะถูกจั่วแล้วคัดออก
+
+// 1. ฟังก์ชันตั้งค่าโหมด (เรียกใช้ทันทีที่เข้าหน้าเกมนั้นๆ)
+function setMode(modeName) {
+    currentMode = modeName;
+    // กรองไพ่จาก Master List (cards) มาใส่กองจั่ว (tempDeck)
+    tempDeck = cards.filter(card => card.category === modeName);
+    
+    // อัปเดตชื่อโหมดบนหน้าจอ
+    const modeTitle = document.getElementById("mode-title");
+    if (modeTitle) {
+        modeTitle.innerText = "กำลังเล่นโหมด: " + modeName;
+    }
+}
+
+// 2. ฟังก์ชันจั่วไพ่ (ใช้ปุ่ม "จั่ว" ปุ่มเดียวได้ทุกโหมด)
 function drawCard() {
-    const filteredCards = cards.filter(card => card.category === "darling-game");
-    if (filteredCards.length > 0) {
-    const randomIndex = Math.floor(Math.random() * filteredCards.length);
-        const selectedCard = filteredCards[randomIndex];
-    document.getElementById("question-text").innerText = selectedCard.text;
-    document.getElementById("mode-title").innerText = "กำลังเล่นโหมด: " + currentMode;
-    document.getElementById("question-text").innerText = selectedCard.text;
+    // เช็กว่าไพ่ในกองชั่วคราวหมดหรือยัง
     if (tempDeck.length === 0) {
         alert("ไพ่หมดสำรับแล้ว! ระบบจะรีเซ็ตสำรับใหม่ให้ครับ");
-        setMode(currentMode); // รีเซ็ตเอาไพ่กลับมาใหม่
-        return
+        setMode(currentMode); // เติมไพ่กลับเข้ากองเดิม
+        return; // ออกจากฟังก์ชันก่อน เพื่อให้ผู้เล่นกดจั่วใหม่อีกรอบ
     }
-        
-    } else {
-        console.log("ไม่พบการ์ดในหมวดนี้");
-    }
+
+    // สุ่มเลข Index จากจำนวนไพ่ที่ "เหลืออยู่" ใน tempDeck
+    const randomIndex = Math.floor(Math.random() * tempDeck.length);
+    
+    // ดึงไพ่ออกมา 1 ใบ และ "ลบ" ออกจากกอง (ใช้ .splice)
+    const selectedCard = tempDeck.splice(randomIndex, 1)[0];
+
+    // แสดงผลข้อความบนหน้าจอ
+    document.getElementById("question-text").innerText = selectedCard.text;
+    
+    // (Optional) โชว์จำนวนไพ่ที่เหลือใน Console ไว้ดูเล่น
+    console.log(`โหมด ${currentMode} เหลือไพ่: ${tempDeck.length} ใบ`);
 }
-
-function sayHello() {
-    alert("Welcome to Our Game")
-}
-
-const container = document.getElementById('container');
-const registerBtn = document.getElementById('register');
-const loginBtn = document.getElementById('login');
-
-registerBtn.addEventListener('click', () => {
-    container.classList.add("active");
-});
-
-loginBtn.addEventListener('click', () => {
-    container.classList.remove("active");
-});

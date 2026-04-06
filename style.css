@@ -1,0 +1,58 @@
+/* จัดการ Layout หลัก */
+body {
+    background-color: #0f172a; /* สีกรมท่าเข้มเกือบดำ */
+    color: #f8fafc;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* สไตล์ของการ์ด */
+.card-display {
+    background: rgba(255, 255, 255, 0.05); /* กระจกฝ้า */
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding: 40px;
+    width: 80%;
+    max-width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+}
+
+/* ตัวหนังสือคำถาม */
+#question-text {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* ปุ่มจั่ว */
+.controls button {
+    background: linear-gradient(135deg, #f43f5e, #fb7185); /* สีชมพูไล่เฉด */
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(244, 63, 94, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.controls button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(244, 63, 94, 0.5);
+}

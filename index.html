@@ -8,8 +8,10 @@
 </head>
 <header>
     <nav>
+        
          <ul>
              <li>
+                
                 <a href="*">*</a>
                 <a href="*">*</a>
                 <a href="*">*</a>
@@ -20,8 +22,35 @@
     </nav>
 </header>
 <body>
-    <div class="main"></div>
-    div>section
+    <main class="select-container">
+        <h1 class="title">ยินดีต้อนรับเข้าสู่เว็บของเรา</h1>
+        <p class="subtitle">คุณเลือกวงที่ใช่สำหรับคุณ</p>
+        <div class="card-wrapper">
+            <div class="friends-mode">
+            <div class="card-icon">วงเพื่อน🍻</div>
+            <h2>กับเพื่อน</h2>
+            <p>เล่นในวงเหล้า ขำขัน เฮฮา ปาร์ตี้</p>
+            <button onclick="window.location.href='friends-mode.html'">Let's It</button>
+            </div>
+
+            <div class="love-mode">
+                <div class="card-icon">เกมแฟน❤️‍🔥</div>
+                <h2>กับแฟน</h2>
+                <p>เปิดใจคุยกันแบบ Deep Talk กระชับความสัมพันธ์ และทำความเข้าใจกันให้มากขึ้น</p>
+            <button onclick="window.location.href='lover-mode.html'">Let's It</button>
+            </div>
+
+            <div class="family-mode">
+                <div class="family-icon">เกมครอบครัว🏠</div>
+                <h2>กับครอบครัว</h2>
+                <p>คำถามอบอุ่นหัวใจที่ช่วยให้คนในครอบครัวใกล้ชิดกันมากกว่าเดิม</p>
+            <button class="select-btn" onclick="selectMode('family')">เริ่มเล่นกับครอบครัว</button>
+            </div>
+        </div>
+        
+    </main>
     
+
 </body>
+<script src="script.js"></script>
 </html>

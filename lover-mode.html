@@ -12,10 +12,13 @@
         <h1 id="question-text">กดปุ่มด้านล่างเพื่อสุ่มคำถาม</h1>
     </div>
     <div class="controls">
-        <button onclick="drawCard()">จั่ว</button>
+        <button onclick="window.drawCard()">จั่ว</button>
     </div>
 </body>
-<script src="script.js">
-    setMode("darling-game");s
+<script type="module" src="script.js"></script>
+
+<script type="module">
+
+    window.setMode("darling-game"); 
 </script>
 </html>

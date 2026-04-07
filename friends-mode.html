@@ -15,11 +15,13 @@
         <button onclick="drawCard()">จั่ว</button>
     </div>
 </body>
-<script src="script.js"></script>
-<script>
-    // ต้องสะกดว่า "friends-game" ให้ตรงกับใน Array cards นะ
-    setMode("friends-game"); 
+<script type="module" src="script.js"></script>
+
+<script type="module">
+    window.setMode("friends-game"); 
 </script>
+
+
 <style>
 * {
     margin: 0;
